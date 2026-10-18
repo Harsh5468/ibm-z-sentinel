@@ -1,0 +1,42 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+*.pem
+*.key
+.pytest_cache/
+data/*.db
+*.sqlite
+*.sqlite3
+
+# Secrets and private keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*secret*
+*credential*
+
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local databases and generated data
+*.db
+*.sqlite
+*.sqlite3
+data/
+
+# Local development files
+.vscode/
+.idea/
+.pytest_cache/
+
+debug.log
+Fraud_LSTM_Keras_TF.ipynb
+Loan_Approval_Demo.ipynb
